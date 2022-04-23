@@ -11,6 +11,7 @@ body{
      background-color: #1f2937;
     margin: 0;
     padding: 0;
+    font-family: roboto;
 }
 html{
     height: 100%;
@@ -106,6 +107,12 @@ li{
     align-items: center;
 }
 
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
 .cards{
     display: flex;
     max-width: 750px;
@@ -123,6 +130,9 @@ li{
 
 .card-box{
     border-radius: 7px;
+    border-width: 3px;
+    border-color: #3882F6;
+    border-style: solid;
     width: 100px;
     height: 100px;
 }
