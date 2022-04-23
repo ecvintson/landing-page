@@ -106,3 +106,25 @@ li{
 #attribution{
     text-align: right;
 }
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 7px;
+    gap: 100px;
+}
+
+.action-left > * {
+    margin: 0;
+    padding: 5px;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+}
