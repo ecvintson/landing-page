@@ -1,8 +1,8 @@
 
 /* temporary outline for visualizing flexboxes */
-* {
+/* * {
     outline: 1px solid black;
-}
+} */
 
 body{
     min-height: 100%;
@@ -21,14 +21,39 @@ html{
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
-     color: white;
-
 }
 
 .headline{
     display: flex;
     justify-content: space-between;
     
+}
+
+#header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-placeholder{
+    margin: 0;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
+
+#hero-main{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+#hero-2, li{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 ul{
@@ -60,6 +85,9 @@ li{
     width: 100px;
     height: 25px;
     border-radius: 7px;
+    background-color: #3882F6;
+    border-style: none;
+    color: #f9faf8;
 }
 
 .body{
@@ -125,6 +153,14 @@ li{
     height: 150px;
     width: 750px;
     border-radius: 7px;
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+
+.action-right > .signup-button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E5E7EB;
     
 }
 
