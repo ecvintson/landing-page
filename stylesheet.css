@@ -5,12 +5,16 @@
 }
 
 body{
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     /* background-color: #1f2937; */
     margin: 0;
+    padding: 0;
 }
-
+html{
+    height: 100%;
+}
 .header{
     display: flex;
     flex-direction: column;
@@ -51,14 +55,19 @@ li{
     margin: 5px;
 }
 
-#signup-button{
+.signup-button{
     width: 100px;
+    height: 25px;
+    border-radius: 7px;
 }
 
 .body{
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    row-gap: 25px;
 }
 
 .information{
@@ -112,19 +121,22 @@ li{
     align-items: center;
     justify-content: space-around;
     height: 150px;
-    width: 500px;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 750px;
     border-radius: 7px;
-    gap: 100px;
+    
 }
 
 .action-left > * {
     margin: 0;
     padding: 5px;
+    
 }
 
 .action-left{
     display: flex;
     flex-direction: column;
+}
+
+.footer{
+
 }
