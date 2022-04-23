@@ -63,16 +63,22 @@ li{
 .information{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .cards{
     display: flex;
+    max-width: 750px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card p {
+    text-align: center;
 }
 
 .card-box{
