@@ -58,6 +58,7 @@ li{
 .body{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .information{
@@ -85,4 +86,23 @@ li{
     border-radius: 7px;
     width: 100px;
     height: 100px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+
+.quote > *{
+    margin: 0;
+}
+
+#quote{
+    text-align: center;
+}
+
+#attribution{
+    text-align: right;
 }
